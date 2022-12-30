@@ -257,3 +257,28 @@ footer main section ul:nth-child(3){
     margin-top: 249px;
     transform: matrix(0.94, 0, 0, 0.94, 0, 0);
 }
+
+.line{
+    position: absolute;
+    height: 1px;
+    width: 1240px;
+    margin-left: 100px;
+    margin-top: 384px;
+    margin-bottom: 23px;
+    background-color: #FFFFFF;
+
+}
+
+.footerzinho{
+    position: absolute;
+    width: 140px;
+    height: 24px;
+    margin-left: 618px;
+    margin-top: 408px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #FFFFFF; 
+    
+}
