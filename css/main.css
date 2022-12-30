@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans&family=Roboto:wght@100;400;500;700&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin: 28.41px 0 29.09px 100px;
+    
+}
+
+header h2{
+    margin-left: 5.45px;
+    font-style: normal;
+    color: #C92071;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.banner{
+    background-color: #B5B6F2;
+    height: 843px;
+
+}
+
+.account{
+    width: 583px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 100px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.account h3{
+    width: 523px;
+    height: 36px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    
+}
+
+.accountp1{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #474747;
+
+}
+
+.account label{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #474747;
+
+}
+
+.account input{
+    width: 523px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 5px;
+    background-color: #66666640;
+    border-radius: 8px;
+    border: none;
+
+}
+
+/* Consertar o placeholder */
+.account input::placeholder{
+    color: black;
+    width: 404.04px;
+    height: 28px;
+    position: absolute;
+    margin-left: 24.61px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #666666;
+    opacity: 0.6;
+
+}
+
+.account button{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 523px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background-color: #C92071;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    
+}
+
+.login{
+    display: flex;
+    gap: 30px;
+    margin-left: 171px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.login img{
+    width: 24px;
+    height: 24px;
+
+}
+
+
+
+/* FOOTER */
+footer{
+    height: 454px;
+    background-color: #1F1F1F;
+
+}
+
+footer main{
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 72px 96px 34px 100px;
+
+}
+
+footer main ul span{
+    display: flex;
+    align-items: center;
+
+}
+
+footer main ul span img{
+    margin-right: 8px;
+
+}
+
+footer main ul:nth-child(1) p{
+    margin-top: 35px;
+    width: 307px;
+    height: 78px;
+
+}
+
+footer main ul .socials{
+    display: flex;
+    position: absolute;
+    margin-top: 41px;
+    gap: 35.9px;
+}
+
+footer main ul .socials img:nth-child(2){
+    height: 20.11px;
+    width: 20.11px;
+
+}
+
+footer main ul span:nth-child(1) {
+    font-weight: 600;
+    font-size: 36.3951px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+
+}
+/* Footer section */
+footer main section{
+    display: flex;
+    margin-left: 205px;
+    
+}
+
+footer main section ul h4{
+    margin-bottom: 28px;
+    
+}
+
+footer main section ul:nth-child(2){
+    margin-left: 102px;
+
+}
+
+footer main section ul:nth-child(3){
+    margin-left: 168px;
+    
+}
+
+.informacao{
+    height: 228px;
+    width: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.categorias{
+    height: 190px;
+    width: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.endereco{
+    height: 78px;
+    width: 231px;
+    margin-bottom: 14px;
+}
+
+.sapato1{
+    position: absolute;
+    margin-left: 727px;
+    margin-top: 76px;
+    transform: matrix(0.97, 0 , 0, 0.97, 0, 0);
+}
+
+.sapato2{
+    position: absolute;
+    margin-left: 993px;
+    margin-top: 249px;
+    transform: matrix(0.94, 0, 0, 0.94, 0, 0);
+}
