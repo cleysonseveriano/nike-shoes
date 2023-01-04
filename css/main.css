@@ -82,8 +82,10 @@ header h2{
 }
 
 .account input{
+    box-sizing: border-box;
     width: 523px;
     height: 60px;
+    padding: 0px 24.61px;
     margin-left: 30px;
     margin-top: 5px;
     background-color: #66666640;
@@ -94,11 +96,11 @@ header h2{
 
 /* Consertar o placeholder */
 .account input::placeholder{
+    display: block;
     color: black;
     width: 404.04px;
     height: 28px;
-    position: absolute;
-    margin-left: 24.61px;
+    margin-left: 30px;
     margin-top: 20px;
     font-style: normal;
     font-weight: 400;
@@ -133,7 +135,8 @@ header h2{
     margin-left: 171px;
     margin-top: 30px;
     margin-bottom: 30px;
-
+    align-items: center;
+    
 }
 
 .login img{
