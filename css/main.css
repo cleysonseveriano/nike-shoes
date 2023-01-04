@@ -282,3 +282,9 @@ footer main section ul:nth-child(3){
     color: #FFFFFF; 
     
 }
+
+.aqui{
+    color: blue;
+    text-decoration: underline;
+
+}
